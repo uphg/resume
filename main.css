@@ -61,7 +61,7 @@ body {
 }
 .content .content-right {
     max-width: 630px;
-    padding: 40px 0 50px;
+    padding: 40px 0 40px;
     flex-grow: 1;
     padding-right: 35px;
 }
@@ -91,17 +91,19 @@ body {
 .content-right .name {
     margin-bottom: 15px;
 }
-.content-right .skill {
 
-}
-.content-right .skill li {
-    width: 80px;
-    height: 110px;
-}
-.skill .degree {
-    width: 68px;
-    height: 68px;
-}
 .list-ul {
     margin-left: 20px;
+}
+.speciality {
+    padding: 10px 0;
+}
+.speciality:nth-child(1) {
+    padding-top: 0;
+}
+.speciality:nth-last-child(1) {
+    padding-bottom: 0;
+}
+.speciality-h3 {
+    font-size: 1em;
 }
