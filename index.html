@@ -8,116 +8,304 @@
         .icon {
            width: 1em; height: 1em;
            vertical-align: -0.15em;
-           fill: currentColor;
+           /* fill: currentColor; */
+           fill: #F6FFFF;
            overflow: hidden;
         }
     </style>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page">
-        <header class="head flex">
-            <div class="head-photo flex">
-                <img src="./demo-img/Photo.jpg" alt="">
-            </div>
-            <div class="head-synopsis">
-                <h2>吕恒</h2>
-                <p class="brief-introduction">毕业于前端相关专业，自学前端开发，有一定工作经验</p>
-                <p>23岁 | 应届生 | 15511872256 | 1834805770@qq.com</p>
-            </div>
-        </header>
-        <main class="content">
-            <section class="flex">
-                <div class="content-left">
-                    <h2 class="flex">求职意向</h2>
-                </div>
-                <div class="content-right">
-                    <ul class="purpose flex">
+    <main class="container">
+        <aside class="introduction">
+            <figure class="avatar">
+                <img src=" " alt="">
+                <h2 class="name">吕恒</h2>
+                <figcaption>前端开发</figcaption>
+            </figure>
+            <main class="list">
+                <section class="part">
+                    <h2 class="title">
+                        <span class="h2-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-gerenxinxi"></use>
+                            </svg>
+                        </span>
+                        <span class="h2-text">基本信息</span>
+                    </h2>
+                    <ul class="info">
+                        <li>学历：大专</li>
+                        <li>年龄：23</li>
+                        <li>性别：男</li>
+                        <li>毕业学校：石家庄工商职业学院</li>
+                        <li>毕业时间：2019.07</li>
+                    </ul>
+                </section>
+                <section class="part">
+                    <h2 class="title">
+                        <span class="h2-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-tongxunlu"></use>
+                            </svg>
+                        </span>
+                        <span class="h2-text">联系方式</span>
+                    </h2>
+                    <ul class="contact">
                         <li>
-                            <span class="purpose-icon">
+                            <span class="li-icon">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#iconzhiwei"></use>
+                                    <use xlink:href="#icon-shouji"></use>
                                 </svg>
                             </span>
-                            <span class="purpose-txt">前端开发</span>
+                            <span class="li-text">15511872256</span>
                         </li>
                         <li>
-                            <span class="purpose-icon">
+                            <span class="li-icon">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#iconicon"></use>
+                                    <use xlink:href="#icon-weixin"></use>
                                 </svg>
                             </span>
-                            <span class="purpose-txt">北京</span>
+                            <span class="li-text">qq447740848</span>
                         </li>
                         <li>
-                            <span class="purpose-icon">
+                            <span class="li-icon">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#iconxinzi"></use>
+                                    <use xlink:href="#icon-ziyuan"></use>
                                 </svg>
                             </span>
-                            <span class="purpose-txt">薪资面议</span>
+                            <span class="li-text">447740848</span>
                         </li>
                         <li>
-                            <span class="purpose-icon">
+                            <span class="li-icon">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#iconshijian"></use>
+                                    <use xlink:href="#icon-QQyouxiang"></use>
                                 </svg>
                             </span>
-                            <span class="purpose-txt">1周内到岗</span>
+                            <span class="li-text">447740848@qq.com</span>
+                        </li>
+                        <li>
+                            <span class="li-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-gmail"></use>
+                                </svg>
+                            </span>
+                            <span class="li-text">lv1834805770@gmail.com</span>
                         </li>
                     </ul>
+                </section>
+                <section class="part">
+                    <h2 class="title">
+                        <span class="h2-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-dengpao"></use>
+                            </svg>
+                        </span>
+                        <span class="h2-text">相关技能</span>
+                    </h2>
+                    <ul class="skill">
+                        <li>
+                            <h3 class="skill-name">
+                                <span class="skill-icon">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-js"></use>
+                                    </svg>
+                                </span>
+                                <span class="skill-text">JavaScript</span>
+                            </h3>
+                            <div class="bar"></div>
+                        </li>
+                        <li>
+                            <h3 class="skill-name">
+                                <span class="skill-icon">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-jquery"></use>
+                                    </svg>
+                                </span>
+                                <span class="skill-text">jQuery</span>
+                            </h3>
+                            <div class="bar"></div>
+                        </li>
+                        <li>
+                            <h3 class="skill-name">
+                                <span class="skill-icon">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-html"></use>
+                                    </svg>
+                                </span>
+                                <span class="skill-text">HTML5 & CSS3</span>
+                            </h3>
+                            <div class="bar"></div>
+                        </li>
+                        <li>
+                            <h3 class="skill-name">
+                                <span class="skill-icon">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-vue"></use>
+                                    </svg>
+                                </span>
+                                <span class="skill-text">Vue</span>
+                            </h3>
+                            <div class="bar"></div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="part">
+                    <h2 class="title">
+                        <span class="h2-icon">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-lianjie"></use>
+                            </svg>
+                        </span>
+                        <span class="h2-text">个人链接</span>
+                    </h2>
+                    <ul class="contact">
+                        <li>
+                            <span class="li-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-github"></use>
+                                </svg>
+                            </span>
+                            <a class="li-text" href="https://github.com/ChenNing02">GitHub 主页</a>
+                        </li>
+                        <li>
+                            <span class="li-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-boke"></use>
+                                </svg>
+                            </span>
+                            <a class="li-text" href="https://chenning02.github.io/">个人博客首页</a>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </aside>
+        <div class="page">
+            <section class="piece">
+                <h2 class="title ai-center">
+                    <span class="h2-icon fx-center">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-gongzuojingli"></use>
+                        </svg>
+                    </span>
+                    <span class="h2-text">工作经历</span>
+                </h2>
+                <div class="content">
+                    <h3 class="caption">北京瑞祥佳艺建筑装饰工程有限公司</h3>
+                    <div class="or-so ai-center">
+                        <span class="left">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-chengshi"></use>
+                            </svg><span class="text">北京</span>
+                        </span>
+                        <span class="right">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-rili"></use>
+                            </svg><span class="text">2019.12 - 2020.04</span>
+                        </span>
+                    </div>
+                    <div class="describe">
+                        <p>
+                            19年毕业后自学半年前端，19年年底12月份在北京瑞祥佳艺建筑装饰有限公司工作。主要负责公司的后台管理系统搭建及维护，工作至今年4月份，因个人原因辞职。
+                        </p>
+                    </div>
                 </div>
             </section>
-            <section class="flex">
-                <div class="content-left">
-                    <h2>工作经历</h2>
-                </div>
-                <div class="content-right">
-                    <h3 class="or-so flex"><span class="left">2019年12月 - 2020年04月</span><span class="right">北京瑞祥佳艺建筑装饰有限公司</span></h3>
-                    <p class="name">前端开发</p>
-                    <p class="describe">
-                        19年毕业后自学半年前端，19年年底12月份在北京瑞祥佳艺建筑装饰有限公司工作。主要负责公司的后台管理系统搭建及维护，因个人原因辞职。
-                    </p>
-                </div>
-            </section>
-            <section class="flex">
-                <div class="content-left">
-                    <h2>技能特长</h2>
-                </div>
-                <div class="content-right">
-                    <section class="speciality">
-                        <h3 class="speciality-h3">Vue</h3>
-                        <p>熟悉 Vue 的常用功能，如组件化、Vue Router、Vuex、双向绑定等</p>
+            <section class="piece">
+                <h2 class="title ai-center">
+                    <span class="h2-icon fx-center">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-xiangmu1"></use>
+                        </svg>
+                    </span>
+                    <span class="h2-text">项目展示</span>
+                </h2>
+                <div class="content">
+                    <section class="item">
+                        <h3 class="caption bold">简约画板</h3>
+                        <div class="describe">
+                            <div class="technical">
+                                <h3>技术栈：</h3>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>HTML5 & CSS3</li>
+                                    <li>Canvas API</li>
+                                    <li>SVG</li>
+                                </ul>
+                            </div>
+                            <p><b>源码链接：</b><a href=" ">https://github.com/ChenNing02/git-canvas</a></p>
+                            <p><b>预览链接：</b><a href=" ">https://chenning02.github.io/git-canvas/index.html</a></p>
+                            <p>
+                                <b>项目介绍：</b>该项目使用纯原生 JS 开发，主要运用了 HTML 5 的特性和 Canvas API ，是我在学习原生 JS 及 Canvas 过程中开发的小工具。 可以提供在 PC 及手机端在线画画、橡皮擦、画笔调色、画作删除等功能，并且支持画作下载。
+                            </p>
+                        </div>
                     </section>
-                    <section class="speciality">
-                        <h3 class="speciality-h3">jQuery</h3>
+                    <section class="item">
+                        <h3 class="caption bold">小米音乐</h3>
+                        <div class="describe">
+                            <div class="technical">
+                                <h3>技术栈：</h3>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>HTML5 & CSS3</li>
+                                    <li>ES6</li>
+                                    <li>SVG</li>
+                                    <li>SCSS</li>
+                                    <li>Parcel</li>
+                                </ul>
+                            </div>
+                            <p><b>源码链接：</b><a href="https://github.com/ChenNing02/git-mi_music">https://github.com/ChenNing02/git-mi_music</a></p>
+                            <p><b>预览链接：</b><a href="https://chenning02.github.io/git-mi_music/dist/index.html">https://chenning02.github.io/git-mi_music/dist/index.html</a></p>
+                            <p>
+                                <b>项目介绍：</b>该项目使用纯原生 JS 开发，主要运用了 HTML 5 + CSS 3 的移动端布局，样式中使用了 vh vw 单位，flex 布局以及计算属性 calc。使用了 parcel 打包工具。使用了 SCSS 来书写 CSS。JS 部分主要使用了 ES6 语法中的 class，fetch异步请求，filter筛选，forEach循环。
+                            </p>
+                        </div>
+                    </section>
+                    <section class="item">
+                        <h3 class="caption bold">多人博客项目</h3>
+                        <div class="describe">
+                            <div class="technical">
+                                <h3>技术栈：</h3>
+                                <ul>
+                                    <li>Vue CLI</li>
+                                    <li>Axios</li>
+                                    <li>Vue Router</li>
+                                    <li>Vuex</li>
+                                    <li>Webpack</li>
+                                    <li>Grid</li>
+                                    <li>Less</li>
+                                </ul>
+                            </div>
+                            <p><b>源码链接：</b><a href="https://github.com/ChenNing02/git-hunger-vue_blog-client">https://github.com/ChenNing02/git-hunger-vue_blog-client</a></p>
+                            <p><b>预览链接：</b><a href="https://chenning02.github.io/git-hunger-vue_blog-client/dist/#/">https://chenning02.github.io/git-hunger-vue_blog-client/dist/#/</a></p>
+                            <p>
+                                <b>项目介绍：</b>该项目使用 Vue 实现了一个在线博客分享的平台。包含首页、用户文章列表、个人管理等页面，实现了登录、注册、编辑、发布等功能。项目使用 Grid 作页面布局，以 Vue CLI 为基础创建项目模版，使用 Less 作 CSS 预处理，引用 Element UI 作交互。通过 Vue Router 实现路由的跳转、异步加载、权限验证等，通过 vuex 实现状态管理，用 Axios 获取数据，并对接口进行了封装。
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section class="piece">
+                <h2 class="title ai-center">
+                    <span class="h2-icon fx-center">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yonghu"></use>
+                        </svg>
+                    </span>
+                    <span class="h2-text">关于我</span>
+                </h2>
+                <div class="content">
+                    <div class="describe">
+                        <p>熟悉 Vue 的常用功能，如组件化、Vue Router、Vuex、双向绑定等。</p>
                         <p>熟悉 jQuery 的常用 API ，可以使用 jQuery 搭建网站、轮播、Tab组件等。</p>
-                    </section>
-                    <section class="speciality">
-                        <h3 class="speciality-h3">HTML5 & CSS3</h3>
-                        <p>能独立制作精美网页，掌握 CSS3 动画、过渡效果、响应式等常用技术。</p>
-                    </section>
-                    <section class="speciality">
-                        <h3 class="speciality-h3">移动端页面</h3>
+                        <p>能够使用 HTML5 & CSS3 独立制作精美网页，掌握 CSS3 动画、过渡效果、响应式等常用技术。</p>
                         <p>会使用REM、vw/vh、FastClick 等技术制作适配手机设备的页面。</p>
-                    </section>
+                        <p>有移动端(H5)的开发经验，会使用响应式、REM、vw/vh等技术适配手机端页面。</p>
+                        <p>熟悉前端常用开发工具，如 VSCode编辑器、Photoshop、Git、GitBash、Cmder等开发工具。</p>
+                    </div>
                 </div>
             </section>
-            <section class="flex">
-                <div class="content-left">
-                    <h2>教育背景</h2>
-                </div>
-                <div class="content-right">
-                    <h3 class="or-so flex"><span class="left">2016年09月 - 2019年07月</span><span class="right">石家庄工商职业学院</span></h3>
-                    <p class="name">软件技术(3G)</p>
-                    <p class="describe">
-                        大专院校
-                        <!-- GPA 3.8/4.0 -->
-                    </p>
-                </div>
-            </section>
-        </main>
-    </div>
-    <script src="//at.alicdn.com/t/font_1781961_e9n1ht88ce.js"></script>
+        </div>
+    </main>
+    <script src="//at.alicdn.com/t/font_1819735_dvqms0lvp5.js"></script>
 </body>
 </html>
