@@ -279,10 +279,13 @@ box-shadow: 0px 0px 5px 0px rgba(39,50,56,1);
     padding-bottom: 0.5em;
 }
 
-.piece .describe {
+.piece .gyw-describe {
+    display: block;
+    list-style-type: disc;
     padding-bottom: 1em;
 }
-.piece .describe p {
+.piece .gyw-describe li {
+    display: list-item;
     color: #575757;
     line-height: 1.5em;
     padding-bottom: 0.5em;
@@ -310,5 +313,5 @@ box-shadow: 0px 0px 5px 0px rgba(39,50,56,1);
     margin-bottom: 8px;
 }
 .piece .item {
-    padding-bottom: 1em;
+    padding-bottom: 1.6em;
 }
