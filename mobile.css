@@ -43,49 +43,13 @@ a {
     color: #F6FFFF;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 850px) {
     .container {
         display: block;
     }
     .introduction {
         width: auto;
         color: #F6FFFF;
-    }
-    .introduction .list {
-        max-width: 500px;
-        margin: 0 auto;
-    }
-    .container .page {
-        padding: 25px;
-    }
-    .container .page .title {
-        font-size: 1.3em;
-    }
-    .container .page .title .h2-icon  {
-        width: 30px;
-        height: 30px;
-    }
-    .container .page .title .h2-icon  svg {
-        width: 15px;
-        height: 15px;
-    }
-    .container .page .content {
-        padding-top: 20px;
-        padding-left: 30px;
-    }
-}
-
-@media (min-width: 441px) and (max-width: 850px) {
-    .container {
-        display: block;
-    }
-    .introduction {
-        width: auto;
-        color: #F6FFFF;
-    }
-    .introduction .list {
-        max-width: 500px;
-        margin: 0 auto;
     }
 }
 
@@ -113,9 +77,7 @@ a {
 .introduction .avatar img {
     width: 200px;
     height: 200px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(39,50,56,1);
--moz-box-shadow: 0px 0px 5px 0px rgba(39,50,56,1);
-box-shadow: 0px 0px 5px 0px rgba(39,50,56,1);
+    border: 1px solid #39464E;
     border-radius: 50%;
     background-color: #ffffff;
     margin-bottom: 30px;
