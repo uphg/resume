@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-*, *::before, *::after{
-    box-sizing: border-box
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -36,11 +38,11 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #37474f;
-    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .introduction {
-    color: #F6FFFF;
+    color: #f6ffff;
 }
 
 @media (max-width: 440px) {
@@ -49,7 +51,7 @@ a {
     }
     .introduction {
         width: auto;
-        color: #F6FFFF;
+        color: #f6ffff;
     }
     .introduction .list {
         max-width: 500px;
@@ -61,11 +63,11 @@ a {
     .container .page .title {
         font-size: 1.3em;
     }
-    .container .page .title .h2-icon  {
+    .container .page .title .h2-icon {
         width: 30px;
         height: 30px;
     }
-    .container .page .title .h2-icon  svg {
+    .container .page .title .h2-icon svg {
         width: 15px;
         height: 15px;
     }
@@ -81,7 +83,7 @@ a {
     }
     .introduction {
         width: auto;
-        color: #F6FFFF;
+        color: #f6ffff;
     }
     .introduction .list {
         max-width: 500px;
@@ -89,13 +91,13 @@ a {
     }
 }
 
-@media (min-width: 851px){
+@media (min-width: 851px) {
     .container {
         display: flex;
     }
     .introduction {
         width: 400px;
-        color: #F6FFFF;
+        color: #f6ffff;
     }
 }
 
@@ -179,7 +181,7 @@ a {
     margin-right: 15px;
     width: 24px;
     height: 24px;
-    background-color: #F6FFFF;
+    background-color: #f6ffff;
     border-radius: 50%;
 }
 .list .skill li {
@@ -188,7 +190,7 @@ a {
 .list .skill .bar {
     height: 8px;
     border-radius: 4px;
-    background-color: #718E9D;
+    background-color: #718e9d;
     margin-top: 6px;
     margin-left: 46px;
 }
@@ -200,16 +202,16 @@ a {
     border-radius: 4px;
     background-color: #273238;
 }
-.list .skill li:nth-child(2) .bar::after{
+.list .skill li:nth-child(2) .bar::after {
     width: 75%;
 }
-.list .skill li:nth-child(3) .bar::after{
+.list .skill li:nth-child(3) .bar::after {
     width: 90%;
 }
-.list .skill li:nth-child(4) .bar::after{
+.list .skill li:nth-child(4) .bar::after {
     width: 60%;
 }
-.list .contact li{
+.list .contact li {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -220,7 +222,7 @@ a {
     margin-right: 15px;
     width: 24px;
     height: 24px;
-    background-color: #F6FFFF;
+    background-color: #f6ffff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -256,25 +258,27 @@ a {
 }
 .piece .content .or-so {
     display: flex;
-    color: #82949E;
+    color: #82949e;
     padding-bottom: 15px;
 }
 .or-so .right .text {
     margin-top: 3px;
 }
-.or-so .left, .or-so .right {
+.or-so .left,
+.or-so .right {
     display: flex;
 }
 .or-so .left {
     margin-right: 2em;
 }
-.or-so .left > svg, .or-so .right > svg {
+.or-so .left > svg,
+.or-so .right > svg {
     margin-right: 5px;
 }
-.page .content .or-so svg{
+.page .content .or-so svg {
     width: 1.2em;
     height: 1.2em;
-    fill: #82949E;
+    fill: #82949e;
 }
 .piece .content .time {
     padding-bottom: 0.5em;
@@ -315,4 +319,60 @@ a {
 }
 .piece .item {
     padding-bottom: 1.6em;
+}
+
+
+/* PDF */
+@media print {
+    body {
+        background-color: #ffffff;
+    }
+    .container {
+        box-shadow: none;
+        display: flex;
+    }
+    .introduction {
+        max-width: 320px;
+        width: auto;
+        color: #f6ffff;
+    }
+    .introduction .avatar {
+        padding: 30px 0;
+        background-color: #273238;
+        text-align: center;
+    }
+    .introduction .avatar img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #273238;
+        margin-bottom: 30px;
+    }
+    .introduction .list {
+        padding: 0 30px;
+    }
+    .introduction .list .part:nth-child(3) .skill li:last-child {
+        padding-top: 20px;
+    }
+    .container .page {
+        flex-grow: 1;
+        color: #273238;
+        background-color: #ffffff;
+        padding: 30px 30px 164px;
+    }
+    .container .page .title {
+        font-size: 1.3em;
+    }
+    .container .page .title .h2-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .container .page .title .h2-icon svg {
+        width: 15px;
+        height: 15px;
+    }
+    .container .page .content {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
 }
