@@ -265,7 +265,7 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-.piece .ul-img img{
+.piece .ul-img img {
     margin-bottom: 0.8em;
     margin-right: 20px;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
@@ -339,7 +339,8 @@ a {
 .footer {
     color: #82949e;
     border-left: 3px solid #82949e;
-    padding: 0 10px;
+    padding: 0 15px;
+    line-height: 1.6em;
 }
 
 /* PDF */
@@ -378,7 +379,7 @@ a {
         flex-grow: 1;
         color: #273238;
         background-color: #ffffff;
-        padding: 30px 30px 95px;
+        padding: 30px 30px 43px;
     }
     .container .page .title {
         font-size: 1.3em;
@@ -398,5 +399,10 @@ a {
     .piece .ul-img img{
         width: 180px;
         height: auto;
+    }
+    .piece .single-img img, .piece .ul-img img {
+        box-shadow: none;
+        border-radius: 2px;
+        border: 2px solid #82949e
     }
 }
