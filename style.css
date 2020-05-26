@@ -253,13 +253,10 @@ a {
     padding-bottom: 35px;
 }
 .piece .caption {
-    /* font-weight: normal; */
     padding-bottom: 0.8em;
 }
 .piece .single-img {
     padding-bottom: 0.8em;
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 .piece .single-img img {
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
