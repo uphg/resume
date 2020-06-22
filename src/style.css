@@ -20,16 +20,19 @@ body {
     background-color: #e9ecef;
 }
 .care {
-    max-width: 720px;
+    /* max-width: 720px; */
+    max-width: 21cm;
+    min-height: 29.7cm;
+    padding: 1em 2em;
     margin: 30px auto 80px;
     background-color: #fff;
     box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
-.care-introduction {
-    padding: 0 1.4em;
-}
+/* .care-introduction, .care-main {
+    padding: 0 1em;
+} */
 .care-main {
-    padding: 0 1.4em 2em;
+    padding-bottom: 2em;
 }
 * {
     margin: 0;
@@ -225,5 +228,14 @@ a:hover {
     }
     .company-h3 span, .company-h3 span.time {
         display: inline-flex;
+    }
+    .part {
+        margin-bottom: 22px;
+    }
+    .care-introduction .title .name {
+        padding-top: 35px;
+    }
+    .care-main .part:nth-child(2) section:last-child .project-h3{
+        padding-top: 40px;
     }
 }
