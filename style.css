@@ -170,6 +170,23 @@ a:hover {
     min-width: 200px;
 }
 
+/* .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: -0.6em;
+}
+.col {
+    flex-basis: 200px;
+    margin-bottom: 0.3em;
+}
+.row .info-h {
+    margin-right: 1em;
+}
+.row .info-t {
+    font-weight: normal;
+} */
+
 
 /* 移动端兼容 */
 @media (max-width: 720px){
